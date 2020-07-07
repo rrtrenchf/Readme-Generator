@@ -65,7 +65,7 @@ inquirer.prompt([{
 
 // function to write README file
 function writeToFile (data) {
-        var filename = "READMEHW.md"
+        var filename = "README.md"
         const answers =generateMarkdown(data)
         
       
